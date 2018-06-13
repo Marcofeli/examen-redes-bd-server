@@ -5,13 +5,6 @@ import smtplib
 from email.message import EmailMessage
 import time
 
-# Autentificacion
-consumer_key = 'Vwx4h6GxWXva3SNnndSlETE17'
-consumer_secret = 'G8NGqLTnlCMb37jSd8pRpNBfslutq2RaImtoh83abuKl066DrJ'
-
-access_token = '1006632843907420160-e06w55i0ZU6oKLc5IkPy69vyuttqIB'
-access_token_secret = 'vUwIpbKHsEXzOq8GCiIJEug8A1CQ9cCLImmmSc1hfSrtj'
-
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
