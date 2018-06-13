@@ -33,7 +33,7 @@ USE `examenredes`;
 CREATE TABLE `tweet` (
   `date` date NOT NULL,
   `text` text NOT NULL,
-  `user` int(144) NOT NULL,
+  `user` varchar(144) NOT NULL,
   `id` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 COMMIT;
